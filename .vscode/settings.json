@@ -1,0 +1,7 @@
+{
+    "better-comments.highlightPlainText": false,
+    "auto-rename-tag.activationOnLanguage": [
+        
+        "*"
+    ]
+}
