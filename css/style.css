@@ -570,14 +570,16 @@ figure {
 
   & .blog-div {
     box-shadow: var(--btn-box-shadow);
-    transition: scale .3s liner;
+    transition: scale .3s linear;
+    -webkit-transition: scale .3s linear;
+    -moz-transition: scale .3s linear;
+    -ms-transition: scale .3s linear;
+    -o-transition: scale .3s linear;
 
-    -webkit-transition: scale .3s liner;
-    -moz-transition: scale .3s liner;
-    -ms-transition: scale .3s liner;
-    -o-transition: scale .3s liner;
 
-    &:hover {
+    
+    &:hover 
+{
 
       scale: 1.2;
     }
