@@ -558,6 +558,19 @@ figure {
 /****** End Contact Section *****/
 
 
+
+/***** Section-blog****/
+
+.section-blog{
+  background-color: var(--bg-color);
+
+}
+.section-blog img{
+  height: 100%;
+  width: auto;
+}
+
+
 /******* Footer *****/
 
 footer {
