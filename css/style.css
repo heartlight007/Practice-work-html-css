@@ -561,13 +561,54 @@ figure {
 
 /***** Section-blog****/
 
-.section-blog{
+.section-blog {
   background-color: var(--bg-color);
 
-}
-.section-blog img{
-  height: 100%;
-  width: auto;
+  & .grid {
+    gap: 5.4rem;
+  }
+
+  & .blog-div {
+    box-shadow: var(--btn-box-shadow);
+    transition: scale .3s liner;
+
+    -webkit-transition: scale .3s liner;
+    -moz-transition: scale .3s liner;
+    -ms-transition: scale .3s liner;
+    -o-transition: scale .3s liner;
+
+    &:hover {
+
+      scale: 1.2;
+    }
+
+    & .blog-content {
+      padding: 1.4rem 2.4rem 2.4rem;
+    }
+  }
+
+  & img {
+    width: 100%;
+    height: auto;
+  }
+
+  & .blog-date {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+
+
+
+    & .fa-solid {
+      background-color: transparent;
+      padding: 0;
+
+    }
+  }
+
+  &.section-common--title {
+    margin-top: 0.8rem;
+  }
 }
 
 
